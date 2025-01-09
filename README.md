@@ -1,6 +1,6 @@
 # AgentBots
 
-Instructions and configuration for Agents to be used with ChatGPT or other LLMs
+Instructions and configuration for Software AI Agents to be used with ChatGPT or other LLMs
 
 ## Architect
 
@@ -13,7 +13,7 @@ An Architect Agent to generate documentation for other agents to build a project
 
 A Builder Agent to generate a plan for other agents to execute the scaffolding of a project.
 
-- You can use it with Cursor Composer and Claude Sonnet, or any other IDE/LLM with agentic capabilities.
+- You can use it with Cursor Composer and Claude Sonnet, or any other IDE/LLM with _agentic_ capabilities.
 
 ## Craftsman
 
