@@ -1,6 +1,6 @@
-# Builder Document for TaskList
+# Builder Document for scaffold TaskList solution
 
-This is a document for an agent to build the foundation of the **TaskList** project.
+This is a document for an Builder agent to plan the scaffold of the **TaskList** project.
 
 **NO FEATURES ARE GENERATED HERE; ONLY PROJECT STRUCTURE, DEPENDENCIES, AND CI/CD.**
 
@@ -47,6 +47,7 @@ const stages: ProjectStage[] = [
     number: 2,
     name: "dev-experience",
     prompt: `
+    - Add a .cursorrules file with coding standards and best practices.
     - Install ESLint and Prettier for development.
     - Configure ESLint to use the .cursorrules file.
     - Configure Prettier to be used as a formatter with ESLint.

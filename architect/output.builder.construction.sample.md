@@ -1,10 +1,8 @@
-# Craftsman Document for TaskList
+# Builder Document for construction TaskList solution
 
-This is a document for an agent to code the **TaskList** project.
+This is a document for a Builder agent to plan the construction of the **TaskList** project features.
 
-**GENERATE CLEAN CODE, WRITE TESTS, AND DOCUMENTATION.**
-
-The building process is decomposed into stages. Each stage has its own prompt, inputs, outputs, validation, and commit.
+The building process is decomposed into stages (features). Each stage has its own prompt, inputs, outputs, validation and commit.
 
 ## Stage Definition
 

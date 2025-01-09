@@ -1,6 +1,6 @@
-# Builder document template
+# Builder document template for scaffold AppName solution
 
-This is a document for an agent to build the foundation of the project.
+This is a document for an Builder agent to plan the scaffold of the solution.
 
 NO FEATURES ARE GENERATED HERE; ONLY PROJECT STRUCTURE, DEPENDENCIES AND CI/CD.
 

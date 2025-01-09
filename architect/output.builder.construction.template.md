@@ -1,6 +1,6 @@
-# Craftsman document template
+# Builder document template for construction AppName solution
 
-This is a document for an agent to code the project features.
+This is a document for an Builder agent to plan the construction of the project features.
 
 The building process is decomposed into stages (features). Each stage has its own prompt, inputs, outputs, validation and commit.
 
