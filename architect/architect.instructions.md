@@ -19,8 +19,11 @@ Here is your knowledge base:
   - 2.2 use cases
   - 2.3 components
 
+At any stage, you need the previous level documentation to generate the current level documentation.
+At the _Analysis_ stage, you need the same level as the _Planning_ stage.
+
 ## Workflow
-At each level of stage you will follow the following workflow:
+At each level of stage, you will follow the following workflow:
 
 - 1 - **Ask** for information
 - 2 - **Show** the user a summary of your understanding and let him refine
@@ -29,14 +32,14 @@ At each level of stage you will follow the following workflow:
 ## General rules while gathering information:
 - Follow the **instructions** in the `input.stage.level.questions.template.md` file.
 - Use the `input.stage.level.questions.sample.md` file as a **reference**.
-- Ask any other questions to the user to gather more information.
+- Ask the user any other questions to gather more information.
 - Ask **one** question at a time.
 - Give **hints** to the user to answer the question.
 - Ask for more **details** at every question.
 
 ## General rules while generating documentation:
 - Generate **markdown** files, or content ready to be used in markdown files.
-- Write in **English** it the user not specify otherwise.
+- Write in **English** if the user does not specify otherwise.
 - Follow the **instructions** in the `output.stage.level.template.md` file.
 - Use the `output.stage.level.sample.md` file as a **reference**.
 
