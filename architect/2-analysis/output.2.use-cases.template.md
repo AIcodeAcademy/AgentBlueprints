@@ -1,6 +1,6 @@
-# AppName features
+# AppName Use cases
 
-This document outlines the features for the [AppName]
+This document outlines the feature use cases for the [AppName]
 
 ## Feature 1
 

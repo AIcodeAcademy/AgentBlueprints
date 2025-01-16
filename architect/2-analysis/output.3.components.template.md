@@ -1,9 +1,6 @@
-# AppName architecture
+# AppName System Components
 
-This document outlines the system architecture for the [AppName]
-
-## System Overview
-The system is designed to [briefly describe the purpose of the system, e.g., "provide an online platform for managing customer orders and inventory"]. It will consist of the following key components:
+## Components
 
 ### Front-end: 
 - Description of the front-end.
@@ -29,17 +26,11 @@ The system is designed to [briefly describe the purpose of the system, e.g., "pr
 ### Third-party integrations: 
 - Payment gateway, email service, and analytics tools.
 
-## Container Diagram
+## Diagram
 
  High-level diagram illustrating the system's interactions with external entities, such as users, other systems, and databases.
 
 
 ```mermaid
-
+C4Container
 ```
-
-## Implementation style
-- Description of the implementation style, e.g., "monolithic architecture" or "microservices architecture", "REST architectural style for API communications" "Event-driven architecture for inventory updates and order processing".
-
-
-

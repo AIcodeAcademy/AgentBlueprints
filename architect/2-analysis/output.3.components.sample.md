@@ -1,9 +1,6 @@
-# TaskList architecture
+# TaskList System Components
 
-This document outlines the system architecture for the TaskList
-
-## System Overview
-The system is designed to help manage tasks. It will consist of the following key components:
+## Components
 
 ### Front-end: 
 - A web app client only.
@@ -28,7 +25,7 @@ The system is designed to help manage tasks. It will consist of the following ke
 ### Third-party integrations: 
 - None.
 
-## Container Diagram
+## Diagram
 
 ```mermaid
 C4Container
@@ -46,9 +43,3 @@ C4Container
     Rel(static_server, webapp, "Delivers to browser")
     Rel(user, static_server, "Requests web application from")
 ```
-
-## Implementation style
-- Monolithic architecture.
-
-
-
