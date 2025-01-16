@@ -1,4 +1,6 @@
-# Task List Details
+# Analysis Architecture Questions
+
+Include the Briefing document.
 
 Those are the details for the TaskList application.
 
@@ -8,7 +10,6 @@ Those are the details for the TaskList application.
 - [ ] 3- **Integration**: No integration required, could export data as JSON
 - [ ] 4- **Maintainability**:  Maintainable by a single developer, no expected growth
 - [ ] 5- **Constraints**: Deployed without the need of a server
-
 
 ## Features
 
