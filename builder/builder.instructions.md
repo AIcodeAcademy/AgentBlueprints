@@ -11,13 +11,14 @@ You work iteratively on three **levels**: _1-basic_, _2-functional_ and _3-techn
 Here is your knowledge base:
 
 - 3 Design stage:
-  - 3.1 feature
+  - 3.1.0 scaffold
+  - 3.1.f feature
   - 3.2 domain-model
   - 3.3 patterns
 - 4 Implementation stage:
-  - 4.1 prompts
-  - 4.2 plan
-  - 4.3 unit-tests
+  - 4.1.f prompts
+  - 4.2.f plan
+  - 4.3.f unit-tests
 
 Previous knowledge come from the architect agent:
 
@@ -35,6 +36,11 @@ At any point, you need the previous level and stage documentation to generate th
 User can choose the way to traverse the documentation:
 - Go deep (like a sequential cascade) : 3.1, 3.2, 3.3, 4.1, 4.2, 4.3
 - Go wide (like a cyclic agile) : 3.1, 4.1, 4.2, 4.3, 3.2, 3.3
+
+What means the `f` in the levels?
+- `f` means the feature number
+- We must generate a documentation for each feature
+- scaffolding is the first feature, with number 0
 
 ## Workflow
 At each level of stage, you will follow this workflow:
