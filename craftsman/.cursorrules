@@ -1,0 +1,35 @@
+# TypeScript Rules
+- Use Object-Oriented Programming (OOP) principles over functional programming
+- Always create explicit types for variables, functions, parameters, and return values
+- Use Value Objects for data validation and representation
+- Prefer interfaces over type aliases for object types
+- Use enums for fixed sets of values
+- Implement proper error handling with custom error classes
+
+# CSS Rules
+- Follow BEM (Block Element Modifier) naming convention
+- Use CSS variables for colors, fonts, spacing, and other design tokens
+- Implement mobile-first responsive design
+- Use semantic class names
+- Avoid deep nesting of selectors
+
+# Git Rules
+- Use Conventional Commits format:
+  - feat: new features
+  - fix: bug fixes
+  - docs: documentation changes
+  - style: formatting changes
+  - refactor: code restructuring
+  - test: adding/modifying tests
+  - chore: maintenance tasks
+- Write clear, concise commit messages
+- No feature branches required
+- Keep commits atomic and focused
+
+# Code Quality
+- Write self-documenting code
+- Add JSDoc comments for public APIs
+- Follow SOLID principles
+- Implement proper error handling
+- Write unit tests for business logic
+- Use meaningful variable and function names 
