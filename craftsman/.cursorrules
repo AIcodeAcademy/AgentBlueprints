@@ -7,10 +7,11 @@
 - Implement proper error handling with custom error classes
 
 # CSS Rules
-- Follow BEM (Block Element Modifier) naming convention
-- Use CSS variables for colors, fonts, spacing, and other design tokens
+- Use PicoCSS framework implicit classes-less approach
+- Use sematic HTML, PicoCSS will handle the styles
+- Customize PicoCSS variables for colors, fonts, spacing, etc.
 - Implement mobile-first responsive design
-- Use semantic class names
+- In case of custom classes, follow BEM (Block Element Modifier) naming convention
 - Avoid deep nesting of selectors
 
 # Git Rules
@@ -31,5 +32,11 @@
 - Add JSDoc comments for public APIs
 - Follow SOLID principles
 - Implement proper error handling
-- Write unit tests for business logic
 - Use meaningful variable and function names 
+
+## E2ETesting
+- Use Playwright for e2e tests
+- Prefer content-based testing over tag-based selection
+- Follow AAA (Arrange, Act, Assert) pattern
+- Use meaningful variable and mock data
+
