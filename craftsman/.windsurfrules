@@ -39,5 +39,4 @@
 - Follow AAA (Arrange, Act, Assert) pattern
 - Name variables with: inputX, fakeX, actualX,expectedX
 - Use meaningful input and mock data
-- Configure output folders inside tests folder
 

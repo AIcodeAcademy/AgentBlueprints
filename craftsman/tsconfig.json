@@ -1,0 +1,33 @@
+{
+  "include": ["src/**/*", "test/**/*"],
+  "compilerOptions": {
+    // Specify explicitly (don’t derive from source file paths):
+    "rootDir": ".",
+    "outDir": "dist",
+
+    //===== Output: JavaScript =====
+    "target": "ES2024",
+    "module": "NodeNext", // sets up "moduleResolution"
+    // Emptily imported modules must exist
+    "noUncheckedSideEffectImports": true,
+    "sourceMap": true, // .js.map files
+
+    //===== Interoperability: help external tools =====
+    // Helps tools that compile .ts to .js by enforcing
+    // `type` modifiers for type-only imports etc.
+    "verbatimModuleSyntax": true,
+
+    //===== Type checking =====
+    "strict": true, // activates several useful options
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+
+    //===== Other options =====
+    // Lets us import JSON files:
+    "resolveJsonModule": true
+  }
+}
