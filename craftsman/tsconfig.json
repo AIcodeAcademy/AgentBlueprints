@@ -6,10 +6,9 @@
     "outDir": "dist",
 
     //===== Output: JavaScript =====
-    "target": "ES2024",
+    "target": "ES2023",
     "module": "NodeNext", // sets up "moduleResolution"
-    // Emptily imported modules must exist
-    "noUncheckedSideEffectImports": true,
+
     "sourceMap": true, // .js.map files
 
     //===== Interoperability: help external tools =====
