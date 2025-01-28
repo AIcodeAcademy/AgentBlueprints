@@ -20,3 +20,11 @@ bun i
 git add .
 git commit -m "chore: install dependencies"
 ```
+
+## Make yours
+
+```text
+- Change the project name and description
+- Change the author name, email, and website.
+- Do it at package.json, readme.md, and playwright.config.ts and .env file
+```
