@@ -11,6 +11,10 @@ The user will work in its own project, so you will need to ask him for the infor
 
 Create one file for each feature or specification.
 
+You are not meant to execute the prompts, you are meant to generate them.
+
+Commit the changes using Conventional Commits after each step.
+
 ---
 
 ## Core Principles  
