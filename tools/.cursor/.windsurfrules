@@ -1,0 +1,116 @@
+# Type Script rules
+
+- Prefer `type` over `interface`
+- Prefer functions over classes
+- Prefer `#` over `_` for private members
+- Avoid `null` and `undefined`
+- Avoid deep nested anonymous functions by asigning named functions
+- Avoid deep nested control structures by using early returns
+- Validate data using plain TS functions no ValueObjects needed
+- Avoid external libraries as much as possible
+
+# Html inline
+
+- Declare an `html` const as `const html = String.raw;` for HTML tagged content
+- Add `id` `name` or `role` attributes to facilitate node selections
+
+# Folder structure
+
+- For simple web projects prefer organization by technology rather tha feature
+
+```txt
+docs/
+public/
+src/
+  components/ # for composable UI
+  logic/ # for business logic
+  models/ # for types and interfaces
+  utils/ # for utility functions
+tests/
+```
+
+# File structure
+
+- Export only one artifact per file
+- Use the following naming convention `{{business}}.{{technical}}.ts`, where :
+  - business is related to functional or specification domain
+  - technical is one of: `type` | `component` | `function`
+
+# HTML rules
+
+- Use standard HTML semantic tags like : `article`, `section`, `nav`, `header`, `footer`, `aside`...
+- Avoid `div` or `p` for layout and use proper semantic tags
+- Add ARIA attributes for accessibility
+- Add `role` attribute when needed
+
+# CSS rules
+
+- We use PicoCSS as reset to avoid classes
+- Do not create custom classes
+
+# Images
+
+- Avoid svg and use emojis for icons
+
+# PicoCSS
+
+- Use a basic reset such
+- Use variables for colors, fonts, and spacing
+- Use containers and grid for layout
+- Nice to have light/dark mode
+
+# Web APIs
+
+- Use fetch API for HTTP requests
+- Use localStorage for data storage
+- Avoid external libraries as much as possible
+
+# Components
+
+- Prefer small components
+- Name them as `src/components/{{name-or-selector}}.component.ts`
+- Only one component per file
+
+# Code documentation
+
+- Add JSDoc comments to public or exported functions
+- Do not add comments to private or inner blocks of code
+- Except for really complex code that need a explain for the 'why'
+
+# Project documentation
+
+- Keep an `/docs/OVERVIEW.md` file with the tech stack, folder structure, and high-level architecture diagram
+- Keep an `/docs/JOURNAL.md` file with the session chat key actions and decision
+- Keep an `/README.md` file with info about the project and the dev test workflow
+
+# Use Playwright
+
+- Use Playwright for e2e testing
+- Create one spec file for each feature at `/tests/{{feature number}}_{{feature name}}.spec.ts`
+- Use **GWT** pattern for describing the tests.
+- Use **AAA** pattern for organizing test code.
+- Name variables following this convention: `inputX`, `mockX`, `actualX`, `expectedX`.
+
+# HTML CSS Selectors
+
+- Read the current `src/components` implementation
+- Prefer selection by role and content (like a user would do)
+- Add any `id`, `role` or `name` attribute to source code to simplify test selections.
+
+# Initialize repo
+
+- Initialize if not yet done and add a `.gitignore` file for the current tech stack
+
+## Git commits
+
+- Add any pending changes
+- Generate a message with the summary of changes
+- Usi conventional commits for messages
+
+## Git release
+
+- Create or update a `CHANGELOG.md` file with messages from commits since last release
+- Update version in `package.json` using semantic versioning
+- Document the changes following @docs.mdc guidelines
+- Create a _tag_ for the release
+- Do not push any change, keep your work at local repository

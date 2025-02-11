@@ -1,0 +1,72 @@
+# Type Script rules
+
+- Prefer `type` over `interface`
+- Prefer functions over classes
+- Prefer `#` over `_` for private members
+- Avoid `null` and `undefined`
+- Avoid deep nested anonymous functions by asigning named functions
+- Avoid deep nested control structures by using early returns
+- Validate data using plain TS functions no ValueObjects needed
+- Avoid external libraries as much as possible
+
+# Html inline
+
+- Declare an `html` const as `const html = String.raw;` for HTML tagged content
+- Add `id` `name` or `role` attributes to facilitate node selections
+
+# Folder structure
+
+- For simple web projects prefer organization by technology rather tha feature
+
+```txt
+docs/
+public/
+src/
+  components/ # for composable UI
+  logic/ # for business logic
+  models/ # for types and interfaces
+  utils/ # for utility functions
+tests/
+```
+
+# File structure
+
+- Export only one artifact per file
+- Use the following naming convention `{{business}}.{{technical}}.ts`, where :
+  - business is related to functional or specification domain
+  - technical is one of: `type` | `component` | `function`
+
+# HTML rules
+
+- Use standard HTML semantic tags like : `article`, `section`, `nav`, `header`, `footer`, `aside`...
+- Avoid `div` or `p` for layout and use proper semantic tags
+- Add ARIA attributes for accessibility
+- Add `role` attribute when needed
+
+# CSS rules
+
+- We use PicoCSS as reset to avoid classes
+- Do not create custom classes
+
+# Images
+
+- Avoid svg and use emojis for icons
+
+# PicoCSS
+
+- Use a basic reset such
+- Use variables for colors, fonts, and spacing
+- Use containers and grid for layout
+- Nice to have light/dark mode
+
+# Web APIs
+
+- Use fetch API for HTTP requests
+- Use localStorage for data storage
+- Avoid external libraries as much as possible
+
+# Components
+
+- Prefer small components
+- Name them as `src/components/{{name-or-selector}}.component.ts`
+- Only one component per file

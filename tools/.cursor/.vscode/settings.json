@@ -1,0 +1,22 @@
+{
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "file": ".vscode/instructions/code.md"
+    }
+  ],
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "file": ".vscode/instructions/git.md"
+    }
+  ],
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "file": ".vscode/instructions/review.md"
+    }
+  ],
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "file": ".vscode/instructions/test.md"
+    }
+  ]
+}
