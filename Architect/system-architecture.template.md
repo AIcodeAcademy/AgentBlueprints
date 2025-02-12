@@ -3,6 +3,7 @@ information: Generate a md file with the system architecture based on this templ
 defaults: the first option is the default.
 container: A piece of deployable software, frontend, backend, database, etc.
 diagram: Container C4 Diagram that displays the web application, database, and API services, highlighting their interactions.
+samples: this document contains samples as md comments, use them as reference to fill the template.
 ---
 
 # System architecture for **{{ Project Name }}**
@@ -30,12 +31,14 @@ diagram: Container C4 Diagram that displays the web application, database, and A
 - {{ Functional | Object-Oriented | None | Other }}
 - Folder structure
 
+<!-- Propose a folder structure for the frontend like this:
   ```
   - src/
     - app/ (pages and repositories)
     - models/ (data models)
     - utils/ (helpers and shared components)
   ```
+ -->
 
 ### Presentation
 
@@ -62,12 +65,14 @@ diagram: Container C4 Diagram that displays the web application, database, and A
 - {{ Functional | Object-Oriented | None | Other }}
 - Folder structure
 
+<!-- Propose a folder structure for the frontend like this:
   ```
   - src/
     - api/ (controllers and repositories)
     - models/ (data models)
     - utils/ (helpers)
   ```
+ -->
 
 ### Authentication
 
