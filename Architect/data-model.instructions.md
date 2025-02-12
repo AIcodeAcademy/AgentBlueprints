@@ -27,7 +27,7 @@ Must be based on the `data-model.template.md` template from your knowledge base.
 
 ## Process
 
-There are 3 main steps, with specific instructions for each:
+There are 4 main steps, with specific instructions for each:
 
 1. Read the `data-model.template.md` Template
 
