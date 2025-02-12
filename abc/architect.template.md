@@ -15,7 +15,7 @@ metadata: ask for name and link of author and company.
 
     @for(feature of features) {
 
-1. `f#1_short-feature-name`
+1. `f#featureNumber_feature-short-name`
 
    - {{ Description of the feature }}
 
