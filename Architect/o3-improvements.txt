@@ -1,0 +1,30 @@
+Below are several hints and recommendations based on reviewing the contents of your Architect folder. These suggestions are aimed at making your instructions and templates more effective when prompting LLMs like me:
+
+1. Use consistent metadata and structured headers:
+   • Enhance front matter with a clear "purpose" field, version numbers, and date stamps to provide context and track changes.
+
+2. Clarify the expected output and formatting:
+   • Clearly define the output format, including explicit guidelines for formatting (e.g., use Gherkin code blocks for acceptance criteria) and provide ideal examples within the templates.
+
+3. Enhance guidance for edge cases and error handling:
+   • Add sections that instruct the LLM to handle incomplete data or ambiguous cases gracefully, such as providing fallback text like 'N/A' when data is missing.
+
+4. Specify technical domain requirements:
+   • Include details that align with your TypeScript/Windows environment (e.g., adherence to TypeScript syntax, Windows path conventions, and common async practices).
+
+5. Separate domain-specific instructions from formatting instructions:
+   • Divide the document into two layers—one for business/domain details and one for the structure/formatting requirements—to help the LLM focus appropriately.
+
+6. Use explicit placeholders and descriptive comments in templates:
+   • Incorporate clear markers (e.g., [[PLACEHOLDER]] or inline comments) to indicate where dynamic or project-specific details should be inserted.
+
+7. Provide clear instructions for multi-turn generation or iterative development:
+   • Encourage staged outputs (e.g., draft outline first, then detailed content after feedback) to ensure accuracy and continuity.
+
+8. Integrate examples of complete and incomplete artifacts:
+   • Include both good and bad examples to clarify the expected standard and common pitfalls to avoid.
+
+9. Include guidelines for future maintainability:
+   • Add a section on how to update or maintain the documents when business rules change, ensuring the documentation remains modular and easily revisable.
+
+Overall, these suggestions aim to minimize ambiguity and align the LLM's output with your project's engineering standards, reducing manual post-processing and ensuring high-quality, consistent documentation. 
