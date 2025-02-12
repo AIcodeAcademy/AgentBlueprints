@@ -1,33 +1,34 @@
 # Architecture Blueprint for **AssetsBoard**
 
-**AssetsBoard** is a Web Application for private investors that _to categorize and summarize investments_
+**AssetsBoard** is a web application for private investors that _enables them to categorize and summarize their financial assets_.
 
 ## Main Features
 
-1. `f#1_add-new-categorized-asset`
+1. `f1_asset-entry`
 
-   - Allows users to add a new asset entry with specified value, quantity, and acquisition date, ensuring accurate portfolio tracking.
+   - Record financial assets with their categorization, quantity, and valuation at specific dates. This provides the foundation for accurate portfolio tracking.
 
-2. `f#2_update-asset`
+2. `f2_asset-value-management`
 
-   - Allows users to modify existing asset entries for real-time portfolio management updates.
+   - Update and maintain asset quantities and valuations across different time points, ensuring historical tracking of portfolio changes.
 
-3. `f#3_view-categorized-summaries`
-   - Displays organized summaries of asset values by category, enabling users to quickly grasp the overall performance.
+3. `f3_portfolio-analytics`
+
+   - Generate detailed summaries and breakdowns of total portfolio value with drill-down capabilities into individual assets and categories.
 
 ## Specifications
 
 - **Interaction**: Web
 - **Architecture**: Frontend_Backend
 - **Database**: Relational
-- **Authentication**: None
+- **Authentication**: JWT
 - **Integrations**: None
-- **Presentation**: Responsive, Dark_Mode switch, Colors(lime, cyan), and Fonts(tomorrow, fira-mono)
+- **Presentation**: Responsive, Dark_Mode, Colors(lime, cyan), Fonts(tomorrow, fira-mono)
 
 ## Tech Stack
 
-- **Frontend**: Vanilla HTML CSS TS
-- **Backend**: Bun Vanilla TS
+- **Frontend**: Bun_Vanilla_TS
+- **Backend**: Bun_Vanilla_TS
 - **Database**: SQLite
 - **E2E Testing**: Playwright
 - **Code Quality**: Biome
@@ -35,8 +36,8 @@
 
 ## Metadata
 
-- **Date**: 2023-10-11
-- **Author**: [Alberto Basalo](https://albertobasalo.dev) , [albertobasalo@aicode-academy](albertobasalo@aicode-academy)
+- **Date**: 2024-03-19
+- **Author**: [Alberto Basalo](https://albertobasalo.dev), [albertobasalo@aicode-academy](albertobasalo@aicode-academy)
 - **Company**: [AI code Academy](https://aicode.academy)
 
 _End of Architecture Document for AssetsBoard_
