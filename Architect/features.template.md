@@ -1,9 +1,10 @@
 ---
 information: Generate a markdown file documenting a feature.
-file_name: {{featureNumber}}-{{feature_short_name}.md
+important: This is a template for one and only one feature.
+file_name: {{featureNumber}}-{{feature_short_name}}.blueprint.md
 ---
 
-# Feature: **{{ Feature Name }}**
+# Feature: **{{ Feature Number }} - {{ Feature Short Name }}**
 
 ## Description
 

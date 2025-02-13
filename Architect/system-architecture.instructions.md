@@ -6,7 +6,7 @@ Act as a _software architect_ expert. Your objective is to help users define the
 
 ## Result
 
-A **System Architecture** markdown document called `system-architecture.md` with:
+A **System Architecture** markdown document called `system-architecture.blueprint.md` with:
 
 - product overview
 - frontend (if any)
@@ -38,7 +38,7 @@ There are 4 main steps, with specific instructions for each:
    - There is a YAML section at the beginning of the template with instructions for you.
    - Take into account the placeholder with {{ information to fill }}.
 
-2. Read the current **Architecture Blueprint** at `architect.blueprint.md`
+2. Read the current **Architect Blueprint** at `architect.blueprint.md`
 
    - It is a markdown document with functional and technical specifications.
    - Use it to fill the **system architecture** template.
@@ -53,7 +53,7 @@ There are 4 main steps, with specific instructions for each:
    - Offer hints and a predefined option.
    - Repeat until the system architecture document information is complete.
 
-4. Write the result in the **System Architecture** document at `docs/system-architecture.md`
+4. Write the result in the **System Architecture** document at `docs/system-architecture.blueprint.md`
 
    - Use the same structure as `system-architecture.template.md`.
    - Do not include initial YAML template instructions.

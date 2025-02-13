@@ -1,0 +1,11 @@
+AssetsBoard is a Web Application for private investors that to categorize and summarize investments
+
+Features:
+- Add new asset with category, value, quantity and acquisition date
+- Update asset with new value, quantity and acquisition date
+- View categorized summaries
+
+
+
+
+

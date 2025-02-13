@@ -27,9 +27,9 @@ samples: this document contains samples as md comments, use them as reference to
 
 ### Architecture
 
-- {{ Layered | Clean | Hexagonal | None | Other }}
-- {{ Functional | Object-Oriented | None | Other }}
-- Folder structure
+- **Software Architecture**: {{ Layered | Clean | Hexagonal | None | Other }}
+- **Programming Paradigm**: {{ Functional | Object-Oriented | None | Other }}
+- **Folder Structure**:
 
 <!-- Propose a folder structure for the frontend like this:
   ```
@@ -42,11 +42,11 @@ samples: this document contains samples as md comments, use them as reference to
 
 ### Presentation
 
-- SPAs, SSR, Static, etc.
-- Routes, modals, etc.
-- {{ Responsive | Dark_Mode  }}
-- Colors : {{ Lime | Cyan | Other }}
-- Fonts : {{ Tomorrow | Fira_Mono | Other }}
+- **Front runtime**: {{ SPAs | SSR | Static | None | Other }}
+- **Interactions**: {{ Routes , Modals , None , Other }}
+- **Style**: {{ Responsive | Dark_Mode | Minimalist | None | Other }}
+- **Colors** : {{ Lime | Cyan | Other }}
+- **Fonts** : {{ Tomorrow | Fira_Mono | Other }}
 
 }
 
@@ -61,9 +61,9 @@ samples: this document contains samples as md comments, use them as reference to
 
 ### Architecture
 
-- {{ Layered | Clean | Hexagonal | None | Other }}
-- {{ Functional | Object-Oriented | None | Other }}
-- Folder structure
+- **Software Architecture**: {{ Layered | Clean | Hexagonal | None | Other }}
+- **Programming Paradigm**: {{ Functional | Object-Oriented | None | Other }}
+- **Folder Structure**:
 
 <!-- Propose a folder structure for the frontend like this:
   ```
@@ -76,7 +76,7 @@ samples: this document contains samples as md comments, use them as reference to
 
 ### Authentication
 
-- {{ JWT | None | Other }}
+- **Authentication**: {{ JWT | None | Other }}
 
 }
 
@@ -84,13 +84,14 @@ samples: this document contains samples as md comments, use them as reference to
 
 ### Database
 
-- {{ Relational | NoSQL | None | Other }}
-- {{ SQLite | PostgreSQL | MongoDB | None | Other }}
-- Naming convention: {{ snake_case | kebab-case | PascalCase | None | Other }}
-- Main tables or collections: {{ users, products, orders | user, product, order }}
-- PK Identifiers: {{ id, user_id | user }}
-- FK Indexes: {{ user_id | user }}
-- Auditing: {{ created_at, updated_at | createdAt, updatedAt | none }}
+- **Database Type**: {{ Relational | NoSQL | None | Other }}
+- **Database**: {{ SQLite | PostgreSQL | MongoDB | None | Other }}
+- **Naming Convention**: {{ snake_case | kebab-case | PascalCase | None | Other }}
+- **Tables or Collections**: {{ plural | singular }}
+- **PK Identifiers**: {{ id, user_id | user }}
+- **FK Indexes**: {{ user_id | user }}
+- **Auditing**: {{ created_at, updated_at | none }}
+- **Soft Delete**: {{ deleted_at | false }}
 
 }
 
@@ -98,11 +99,10 @@ samples: this document contains samples as md comments, use them as reference to
 
 ## Integrations
 
-- {{ External_API | None | Other }}
-- {{ Stripe | None | Other }}
-- {{ Google_Maps | None | Other }}
-- {{ OpenAI | None | Other }}
-- {{ None | Other }}
+- **External API**: {{ External_API | None | Other }}
+- **Payments**: {{ Stripe | None | Other }}
+- **AI**: {{ OpenAI | None | Other }}
+- **Other**: {{ None | Other }}
 
 }
 
