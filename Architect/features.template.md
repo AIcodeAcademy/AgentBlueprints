@@ -12,12 +12,24 @@ file_name: {{featureNumber}}-{{feature_short_name}}.blueprint.md
 
 ## Involved Data Models
 
+<!--This is tan important part of the feature documentation.
+- Read the feature and the data model blueprints.
+- Think deeply about the entities and their relationships.
+- Evaluate 2-3 options and choose the simplest one.
+- After having the involved entities, think about the attributes.
+- Then materialize the list of entities and their attributes.
+ -->
+
 The following data models play a role in this feature:
 
-@for(model of additionalModels) {
+@for( entity of involvedEntities) {
 
-- **{{ model.name }}**: {{ model.description }}
-  }
+- **{{ entity.name }}**: {{ entity.description }}
+- - **Attributes**:
+    @for(attribute of entity.involvedAttributes) {
+  - **{{ attribute.name }}**: {{ attribute.type }} - {{ attribute.mandatory | true | false }} - {{ attribute.unique | true | false  }}
+    }
+    }
 
 ## Acceptance Criteria (in Gherkin Syntax)
 
